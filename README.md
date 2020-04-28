@@ -15,7 +15,7 @@ Instructions for Windows:
 
 -Select this new GameObject and on the "Inspector" click on "Add Component" and search and add the script "Bugs".
 
--In the Inspector and the "Bugs" script added, check the rectangle that say "None (GameObject)" on the right click the little circle and then click the white square of name "Bug".
+-In the Inspector and the "Bugs" script added, check the rectangle that say "None (GameObject)" on the right, click the little circle and then click the white square of name "Bug".
 
 -Click PLAY.
 
