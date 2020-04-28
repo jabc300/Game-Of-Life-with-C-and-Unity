@@ -114,21 +114,21 @@ public class Bugs : MonoBehaviour {
     }
 
     int CheckIfThereIsABug(int i, int j, int counterbugs) {
-        //Esquina izquierda
+        //UpLeft
         if (BugsArray[i - 1, j - 1] != null && BugsArray[i - 1, j - 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Arriba
+        //Up
         if (BugsArray[i - 1, j] != null && BugsArray[i - 1, j].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Esquina Derecha
+        //UpRight
         if (BugsArray[i - 1, j + 1] != null && BugsArray[i - 1, j + 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Izquierda
+        //Left
         if (BugsArray[i, j - 1] != null && BugsArray[i, j - 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Derecha
+        //Right
         if (BugsArray[i, j + 1] != null && BugsArray[i, j + 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Inferior Izquierda
+        //DownLeft
         if (BugsArray[i + 1, j - 1] != null && BugsArray[i + 1, j - 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Abajo
+        //Down
         if (BugsArray[i + 1, j] != null && BugsArray[i + 1, j].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
-        //Inferior Derecha
+        //DownRight
         if (BugsArray[i + 1, j + 1] != null && BugsArray[i + 1, j + 1].GetComponent<SpriteRenderer>().sortingOrder == 2) ++counterbugs;
 
         return counterbugs;
