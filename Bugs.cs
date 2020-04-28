@@ -82,7 +82,7 @@ public class Bugs : MonoBehaviour {
         {
             for (int j = 1; j < n - 1; ++j)
             {
-                if (BugsArray[i, j].GetComponent<SpriteRenderer>().sortingOrder == 0) //Detecta si existe un espacio
+                if (BugsArray[i, j].GetComponent<SpriteRenderer>().sortingOrder == 0) //Detect if the there is a space
                 {
                     CreateGeneration[i, j] = 0;
                     counterbugs = CheckIfThereIsABug(i, j, counterbugs);
@@ -90,11 +90,11 @@ public class Bugs : MonoBehaviour {
                     counterbugs = 0;
                     continue;
                 }
-                if (BugsArray[i, j].GetComponent<SpriteRenderer>().sortingOrder == 2) //Detecta si existe un bicho
+                if (BugsArray[i, j].GetComponent<SpriteRenderer>().sortingOrder == 2) //Detect if there is an entity
                 {
                     CreateGeneration[i, j] = 2;
                     counterbugs = CheckIfThereIsABug(i, j, counterbugs);
-                    if (counterbugs < 2 || counterbugs > 3) CreateGeneration[i, j] = 0; //mata al bicho
+                    if (counterbugs < 2 || counterbugs > 3) CreateGeneration[i, j] = 0; //kill the entity
                     counterbugs = 0;
                     continue;
                 }
