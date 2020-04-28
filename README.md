@@ -9,7 +9,7 @@ Instructions for Windows:
 
 -Go the Window, then 2D and select Tile Pallette.
 
--Click on the black square and start painting the "Scene" with it.
+-Click on the black square and start painting the "Scene" with it, 42x56 squares.
 
 -Create a new GameObject in the "Hierarchy".
 
