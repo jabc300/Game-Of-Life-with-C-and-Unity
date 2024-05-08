@@ -1,21 +1,13 @@
 # Game-Of-Life-with-CSharp-and-Unity
-The Unity version 2018.2.10f1
+The Unity version 2021.3.13f1
+
+![](GIF/GameOfLife.gif)
 
 Instructions for Windows:
 
--In the "Hierarchy" create a "Grid", then right click on "Grid", select "2D Object" and then click on Tilemap.
+-In the Hierarchy click on CreateBugs.
 
--Go to the "Inspector" with the Tilemap selected, search "Order In Layer" and change it to 1.
-
--Go the Window, then 2D and select Tile Pallette.
-
--Click on the black square and start painting the "Scene" with it, 42x56 squares.
-
--Create a new GameObject in the "Hierarchy".
-
--Select this new GameObject and in the "Inspector" click on "Add Component", search and add the script "Bugs".
-
--In the Inspector and the "Bugs" script added, check the rectangle that say "None (GameObject)" on the right, click the little circle and then click the white square of name "Bug".
+-In the Inspector check the Bugs Component and write the number of columns and rows, the aspect ratio must be 16:10 (Ex. 16 Columns and 10 Rows).
 
 -Click PLAY.
 
